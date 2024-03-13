@@ -22,11 +22,11 @@ describe('translate', () => {
 		expect(pigLatin("apple")).toBe('appleay');
 	});
 
-	test.skip('translates a word beginning with a consonant', () => {
+	test('translates a word beginning with a consonant', () => {
 		expect(pigLatin("banana")).toBe("ananabay");
 	});
 
-	test.skip('translates a word beginning with two consonants', () => {
+	test('translates a word beginning with two consonants', () => {
 		expect(pigLatin("cherry")).toBe('errychay');
 	});
 
@@ -34,11 +34,11 @@ describe('translate', () => {
 		expect(pigLatin("eat pie")).toBe('eatay iepay');
 	});
 
-	test.skip('translates a word beginning with three consonants', () => {
+	test('translates a word beginning with three consonants', () => {
 		expect(pigLatin("three")).toBe("eethray");
 	});
 
-	test.skip('counts "sch" as a single phoneme', () => {
+	test('counts "sch" as a single phoneme', () => {
 		expect(pigLatin("school")).toBe("oolschay");
 	});
 
