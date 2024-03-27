@@ -8,13 +8,8 @@ const books = [
         author: "Mark Myers"
     }
 ];
-let titles = [];
-const getTheTitles = function() {
-    for (let i = 0; i < books.length; i++) {
-        titles.push(books[i].title);
-    }
-    return titles;
-};
+// Function to get the titles of books
+const getTheTitles = (books) => title = books.filter(book => book.title);
 
 // Do not edit below this line
 module.exports = getTheTitles;
